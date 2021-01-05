@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <!-- Link CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Work Day Scheduler</title>
+
+<body>
+    <header class="jumbotron">
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p id="currentDay" class="lead"></p>
+        <p id="currentTime" class="lead"></p>
+    </header>
+    <div class="container">
+        <!-- Timeblocks go here - 12 am to 12 pm -->
+        <!-- Use textarea tag so user can input multiple lines -->
+        <!-- Use i tag to add save icon from FontAwesome-->
+        <!-- 12:00 AM -->
+        <div id="hour0" class="row time-block">
+            <div class="col-md-1 hour">12 AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 1:00 AM -->
+        <div id="hour1" class="row time-block">
+            <div class="col-md-1 hour">1 AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 2:00 AM -->
+        <div id="hour2" class="row time-block">
+            <div class="col-md-1 hour">2 AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 3:00 AM -->
+        <div id="hour3" class="row time-block">
+            <div class="col-md-1 hour">3 AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 4:00 AM -->
+        <div id="hour4" class="row time-block">
+            <div class="col-md-1 hour">4 AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 5:00 AM -->
+        <div id="hour5" class="row time-block">
+            <div class="col-md-1 hour">5 AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 6:00 AM -->
+        <div id="hour6" class="row time-block">
+            <div class="col-md-1 hour">6 AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 7:00 AM -->
+        <div id="hour7" class="row time-block">
+            <div class="col-md-1 hour">7 AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 8:00 AM -->
+        <div id="hour8" class="row time-block">
+            <div class="col-md-1 hour">8 AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 9:00 AM -->
+        <div id="hour9" class="row time-block">
+            <div class="col-md-1 hour">9 AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 10:00 AM -->
+        <div id="hour10" class="row time-block">
+            <div class="col-md-1 hour">10 AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 11:00 AM -->
+        <div id="hour11" class="row time-block">
+            <div class="col-md-1 hour">11 AM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 12:00 PM -->
+        <div id="hour12" class="row time-block">
+            <div class="col-md-1 hour">12 PM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 1:00 PM -->
+        <div id="hour13" class="row time-block">
+            <div class="col-md-1 hour">1 PM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 2:00 PM -->
+        <div id="hour14" class="row time-block">
+            <div class="col-md-1 hour">2 PM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 3:00 PM -->
+        <div id="hour15" class="row time-block">
+            <div class="col-md-1 hour">3 PM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 4:00 PM -->
+        <div id="hour16" class="row time-block">
+            <div class="col-md-1 hour">4 PM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 5:00 PM -->
+        <div id="hour17" class="row time-block">
+            <div class="col-md-1 hour">5 PM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 6:00 PM -->
+        <div id="hour18" class="row time-block">
+            <div class="col-md-1 hour">6 PM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 7:00 PM -->
+        <div id="hour19" class="row time-block">
+            <div class="col-md-1 hour">7 PM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 8:00 PM -->
+        <div id="hour20" class="row time-block">
+            <div class="col-md-1 hour">8 PM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 9:00 PM -->
+        <div id="hour21" class="row time-block">
+            <div class="col-md-1 hour">9 PM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 10:00 PM -->
+        <div id="hour22" class="row time-block">
+            <div class="col-md-1 hour">10 PM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+        <!-- 11:00 PM -->
+        <div id="hour23" class="row time-block">
+            <div class="col-md-1 hour">11 PM</div>
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 btn saveBtn"><i class="fas fa-calendar-plus"></i></button>
+        </div>
+    </div>
+    <!-- Link JavaScript and JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
