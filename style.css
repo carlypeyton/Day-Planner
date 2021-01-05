@@ -2,27 +2,42 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-color: whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    background-image: url("https://wallpaperaccess.com/full/4317847.jpg");
+    background-size: auto;
+    background-attachment: fixed;
   }
-  
+
   textarea{
     background: transparent;
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
+    border-left: 1px solid white;
     padding: 10px;
   }
   
-  .jumbotron {
+  .intro {
     text-align: center;
     background-color: transparent;
     color: black;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    font-family: 'Gaegu', cursive; 
+    margin-top: 10px;   
   }
-  
+
+  #currentDay {
+    text-align: right;
+  }
+
+  #currentTime {
+    text-align: left;
+  }
+
   .description{
     white-space: pre-wrap;
+    resize: none;
   }
   
   .time-block{
@@ -37,9 +52,11 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
+    background-color: transparent;
+    font-family: 'Gaegu', cursive;
     color: #000000;
-    border-top: 1px dashed #000000;
+    border-top: 1px solid white;;
+    padding-top: 25px;
   }
   
   .past {
@@ -48,12 +65,12 @@ body {
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: rgb(194, 53, 53);
     color: white;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: rgb(109, 144, 207);
     color: white;
   }
   
@@ -61,11 +78,14 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
     color: white;
   }
   
   .saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
+    font-size: 30px;
+    transition: all .15s ease-in-out;
+  }
+ 
+  #hour23 {
+    margin-bottom: 50px;
   }
