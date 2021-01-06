@@ -2,15 +2,11 @@
 
 ## User Story
 
-```
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
-```
 
 ## Acceptance Criteria
-
-```
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -24,7 +20,10 @@ WHEN I click the save button for that time block
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
-```
 
 
-- Add description, links, screenshots, and submit links
+<img src = "Screen Shot 2021-01-06 at 1.01.19 PM.png">
+<img src = "Screen Shot 2021-01-06 at 1.01.53 PM.png">
+<img src = "Screen Shot 2021-01-06 at 1.02.16 PM.png">
+
+- Add description, links, and submit links
