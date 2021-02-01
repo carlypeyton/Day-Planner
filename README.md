@@ -40,3 +40,4 @@ Screenshot 3:
 
 This application allows users to schedule events from 12am to 12pm, to help them better plan their day. Scheduled events are change color based on whether they are in the past, present, or future. 
 
+For questions or additional information, please contact carlypeyton@gmail.com.
