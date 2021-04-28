@@ -31,8 +31,8 @@ THEN the saved events persist
 ```
 
 ## Deployed Application 
-Link to Deployed Application: https://carlypeyton.github.io/Day-Planner/
-Link to Github Repository: https://github.com/carlypeyton/Day-Planner
+* Link to Deployed Application: https://carlypeyton.github.io/Day-Planner/
+* Link to Github Repository: https://github.com/carlypeyton/Day-Planner
 
 ## Application Walkthrough
 
